@@ -4,7 +4,6 @@ class Solution {
         int cr = 0, cc = 0;
         int c = 1;
         int mcr = arr.length, mcc = arr[0].length;
-
         while (cr < mcr && cc < mcc) {
 
             for (int i = cc; i < mcc; i++) {
