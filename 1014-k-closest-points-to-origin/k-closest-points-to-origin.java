@@ -9,9 +9,6 @@ class Solution {
                 maxHeap.poll();
             }
         }
-        for (int i = k; i < points.length; i++) {
-
-        }
         int[][] result = new int[k][2];
         for (int i = 0; i < k; i++) {
             result[i] = maxHeap.poll();
