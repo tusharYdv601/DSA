@@ -8,11 +8,10 @@ class Solution {
             if (change[n] > n) {
                 str.append(change[n]);
                 check = true;
-            } else if (change[n] == n && check) {
-                str.append(change[n]);
+
             } else if (change[n] < n && check) {
                 break;
-            }else {
+            } else {
                 str.append(n);
             }
         }
